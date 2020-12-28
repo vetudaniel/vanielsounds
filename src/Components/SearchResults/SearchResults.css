@@ -1,0 +1,27 @@
+.SearchResults {
+    width: 40%; 
+    max-height:500px;
+    padding: .88rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 2px 2px #00000070;
+  overflow: scroll;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  
+  
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
+  @media screen and (max-width: 1024px) and (min-width: 700px){
+    .SearchResults{
+      margin:2rem;
+    }
+
+  }
