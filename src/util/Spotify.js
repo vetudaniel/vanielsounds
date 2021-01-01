@@ -1,8 +1,8 @@
 
 
 let userAccessToken
-const clientID = '35e3b2dad15445adaca1304ce4615a82'
-const redirectURI = ''
+const clientID = ''
+const redirectURI = 'http://soundplace.surge.sh'
 
 
 const Spotify = {
